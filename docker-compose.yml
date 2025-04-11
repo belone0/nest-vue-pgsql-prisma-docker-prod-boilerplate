@@ -34,9 +34,9 @@ services:
     image: postgres:latest
     container_name: postgres-db
     environment:
-      POSTGRES_USER: bridsolucoes
+      POSTGRES_USER: user
       POSTGRES_PASSWORD: 12345678
-      POSTGRES_DB: focalizacao
+      POSTGRES_DB: database
     ports:
       - "5432:5432"
     healthcheck:
